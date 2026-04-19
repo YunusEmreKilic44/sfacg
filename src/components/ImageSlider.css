@@ -1,0 +1,27 @@
+.swiper-pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 16px !important;
+  padding-bottom: 12px !important;
+  bottom: 0 !important;
+  left: unset !important;
+  right: 0 !important;
+  width: auto !important;
+}
+
+.swiper-pagination-bullet {
+  width: 14px !important;
+  height: 14px !important;
+  background: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #e29464 !important;
+  opacity: 1;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
