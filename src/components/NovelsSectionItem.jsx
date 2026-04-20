@@ -22,4 +22,4 @@ const NovelsSectionItem = ({ popuarNovel }) => {
   );
 };
 
-export default NovelsSectionItem;
+export default React.memo(NovelsSectionItem);

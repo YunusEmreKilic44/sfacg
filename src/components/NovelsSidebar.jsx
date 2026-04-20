@@ -3,9 +3,8 @@ import { useNovelsContext } from "../context/NovelsContext";
 import NovelsSiderbarItem from "./NovelsSiderbarItem";
 
 const NovelsSidebar = ({ title }) => {
-  const { getMostRatedNovels, getRandomNovels } = useNovelsContext();
+  const { mostRatedNovels, getRandomNovels } = useNovelsContext();
 
-  const mostRatedNovels = getMostRatedNovels();
   const randomNovels = getRandomNovels();
 
   let layout = [];

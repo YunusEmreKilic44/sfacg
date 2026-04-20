@@ -25,4 +25,4 @@ const NovelsSiderbarItem = ({ novel, index }) => {
   );
 };
 
-export default NovelsSiderbarItem;
+export default React.memo(NovelsSiderbarItem);

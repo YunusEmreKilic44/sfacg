@@ -3,10 +3,7 @@ import { useNovelsContext } from "../context/NovelsContext";
 import NovelsSectionItem from "./NovelsSectionItem";
 
 const NovelsSection = ({ sectionTitle }) => {
-  const { getMostPopularNovels, getNewestNovels } = useNovelsContext();
-
-  const mostPopularNovels = getMostPopularNovels();
-  const newestNovels = getNewestNovels();
+  const { mostPopularNovels, newestNovels } = useNovelsContext();
   let layout = [];
 
   if (sectionTitle === "Popüler Kitaplar") {
