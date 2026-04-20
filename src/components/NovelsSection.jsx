@@ -21,7 +21,7 @@ const NovelsSection = ({ sectionTitle }) => {
       <h2 className="text-2xl pb-4 mb-4 border-b border-b-[#66666638]">
         {sectionTitle}
       </h2>
-      <div className="grid grid-cols-5">{layout}</div>
+      <div className="grid grid-cols-5 w-200">{layout}</div>
     </section>
   );
 };

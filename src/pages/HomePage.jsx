@@ -2,6 +2,7 @@ import React from "react";
 import NovelsSidebar from "../components/NovelsSidebar";
 import NovelsSection from "../components/NovelsSection";
 import ImageSlider from "../components/ImageSlider";
+import Recommendations from "../components/Recommendations";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
         <NovelsSection sectionTitle={"Yeni Kitaplar"} />
         <NovelsSidebar title="Vip Kitaplar" />
       </div>
+      <Recommendations />
     </main>
   );
 };

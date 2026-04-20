@@ -20,7 +20,7 @@ const NovelsSidebar = ({ title }) => {
   }
 
   return (
-    <aside>
+    <aside className="w-100">
       <h2 className="pb-4 text-2xl border-b border-b-[#66666638] mb-4">
         {title}
       </h2>

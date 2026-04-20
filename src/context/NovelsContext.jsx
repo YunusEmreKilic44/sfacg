@@ -29,6 +29,11 @@ const NovelsContextProvider = ({ children }) => {
     [novelsList],
   );
 
+  const getRecommendedNovels = useCallback(
+    (count = 5) => [...novelsList].sort((a, b) => b.rating - a.rating).slice(0, count),
+    [novelsList],
+  );
+
   const value = useMemo(
     () => ({
       novelsList,
@@ -36,8 +41,9 @@ const NovelsContextProvider = ({ children }) => {
       mostRatedNovels,
       newestNovels,
       getRandomNovels,
+      getRecommendedNovels,
     }),
-    [novelsList, mostPopularNovels, mostRatedNovels, newestNovels, getRandomNovels],
+    [novelsList, mostPopularNovels, mostRatedNovels, newestNovels, getRandomNovels, getRecommendedNovels],
   );
 
   return <NovelsContext value={value}>{children}</NovelsContext>;
