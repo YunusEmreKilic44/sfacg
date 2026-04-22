@@ -7,12 +7,12 @@ const NovelsSection = ({ sectionTitle }) => {
   let layout = [];
 
   if (sectionTitle === "Popüler Kitaplar") {
-    layout = mostPopularNovels.map((popuarNovel) => (
-      <NovelsSectionItem key={popuarNovel.id} popuarNovel={popuarNovel} />
+    layout = mostPopularNovels.map((popularNovel) => (
+      <NovelsSectionItem key={popularNovel.id} popularNovel={popularNovel} />
     ));
   } else if (sectionTitle === "Yeni Kitaplar") {
-    layout = newestNovels.map((popuarNovel) => (
-      <NovelsSectionItem key={popuarNovel.id} popuarNovel={popuarNovel} />
+    layout = newestNovels.map((popularNovel) => (
+      <NovelsSectionItem key={popularNovel.id} popularNovel={popularNovel} />
     ));
   }
 

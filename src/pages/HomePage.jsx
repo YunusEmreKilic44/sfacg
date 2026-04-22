@@ -5,6 +5,7 @@ import ImageSlider from "../components/ImageSlider";
 import Recommendations from "../components/Recommendations";
 
 const HomePage = () => {
+  
   return (
     <main>
       <ImageSlider />

@@ -1,6 +1,6 @@
 import { ArrowUp01, BookOpen, Coins, House, SquarePen } from "lucide-react";
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,10 +8,12 @@ const Navbar = () => {
       <nav className="max-w-300 text-white mx-auto items-center">
         <div className="flex justify-between">
           <div className="flex items-center">
-            <img className="mr-7.5" src="./logo.png" alt="Logo" />
+            <Link to="/">
+              <img className="mr-7.5" src="./logo.png" alt="Logo" />
+            </Link>
             <NavLink to="/">
               <span className="flex flex-col justify-center items-center px-5.5">
-                <House /> Anasayfa
+                <House /> <Link to="/">Anasayfa</Link>
               </span>
             </NavLink>
             <NavLink to="/books">

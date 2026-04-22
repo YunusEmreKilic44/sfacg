@@ -2,6 +2,7 @@ const novels = [
   {
     id: 1,
     title: "Re:Zero kara Hajimeru Isekai Seikatsu",
+    slug: "re-zero-kara-hajimeru-isekai-seikatsu",
     author: "Tappei Nagatsuki",
     genre: ["Fantasy", "Isekai", "Drama"],
     status: "Ongoing",
@@ -48,6 +49,7 @@ const novels = [
   {
     id: 2,
     title: "Sword Art Online",
+    slug: "sword-art-online",
     author: "Reki Kawahara",
     genre: ["Fantasy", "Action", "Romance"],
     status: "Completed",
@@ -73,6 +75,7 @@ const novels = [
   {
     id: 3,
     title: "Overlord",
+    slug: "overlord",
     author: "Kugane Maruyama",
     genre: ["Fantasy", "Isekai", "Dark"],
     status: "Completed",
@@ -99,6 +102,7 @@ const novels = [
   {
     id: 4,
     title: "No Game No Life",
+    slug: "no-game-no-life",
     author: "Yuu Kamiya",
     genre: ["Fantasy", "Comedy", "Isekai"],
     status: "Ongoing",
@@ -125,6 +129,7 @@ const novels = [
   {
     id: 5,
     title: "Mushoku Tensei: Jobless Reincarnation",
+    slug: "mushoku-tensei-jobless-reincarnation",
     author: "Rifujin na Magonote",
     genre: ["Fantasy", "Isekai", "Adventure"],
     status: "Completed",
@@ -151,6 +156,7 @@ const novels = [
   {
     id: 6,
     title: "Tensura: That Time I Got Reincarnated as a Slime",
+    slug: "tensura-that-time-i-got-reincarnated-as-a-slime",
     author: "Fuse",
     genre: ["Fantasy", "Isekai", "Comedy"],
     status: "Ongoing",
@@ -181,6 +187,7 @@ const novels = [
   {
     id: 7,
     title: "The Rising of the Shield Hero",
+    slug: "the-rising-of-the-shield-hero",
     author: "Aneko Yusagi",
     genre: ["Fantasy", "Isekai", "Action"],
     status: "Ongoing",
@@ -207,6 +214,7 @@ const novels = [
   {
     id: 8,
     title: "Konosuba: God's Blessing on This Wonderful World!",
+    slug: "konosuba-gods-blessing-on-this-wonderful-world",
     author: "Natsume Akatsuki",
     genre: ["Fantasy", "Comedy", "Isekai"],
     status: "Completed",
@@ -264,6 +272,7 @@ const novels = [
   {
     id: 9,
     title: "The Eminence in Shadow",
+    slug: "the-eminence-in-shadow",
     author: "Daisuke Aizawa",
     genre: ["Fantasy", "Isekai", "Action", "Comedy"],
     status: "Ongoing",
@@ -294,6 +303,7 @@ const novels = [
   {
     id: 10,
     title: "Classroom of the Elite",
+    slug: "classroom-of-the-elite",
     author: "Syougo Kinugasa",
     genre: ["Psychological", "Drama", "School"],
     status: "Ongoing",
@@ -345,6 +355,7 @@ const novels = [
   {
     id: 11,
     title: "Mahouka Koukou no Rettousei",
+    slug: "mahouka-koukou-no-rettousei",
     author: "Tsutomu Satou",
     genre: ["Action", "Fantasy", "Sci-Fi", "School"],
     status: "Ongoing",
@@ -382,6 +393,7 @@ const novels = [
   {
     id: 12,
     title: "Spice and Wolf",
+    slug: "spice-and-wolf",
     author: "Isuna Hasekura",
     genre: ["Adventure", "Romance", "Fantasy"],
     status: "Completed",
@@ -420,6 +432,7 @@ const novels = [
   {
     id: 13,
     title: "Goblin Slayer",
+    slug: "goblin-slayer",
     author: "Kumo Kagyu",
     genre: ["Dark Fantasy", "Action", "Adventure"],
     status: "Ongoing",
@@ -450,6 +463,7 @@ const novels = [
   {
     id: 14,
     title: "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+    slug: "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon",
     author: "Fujino Omori",
     genre: ["Fantasy", "Action", "Romance", "Adventure"],
     status: "Ongoing",
@@ -480,6 +494,7 @@ const novels = [
   {
     id: 15,
     title: "Toradora!",
+    slug: "toradora",
     author: "Yuyuko Takemiya",
     genre: ["Romance", "Comedy", "Drama", "School"],
     status: "Completed",
@@ -506,6 +521,7 @@ const novels = [
   {
     id: 16,
     title: "Oregairu: My Teen Romantic Comedy SNAFU",
+    slug: "oregairu-my-teen-romantic-comedy-snafu",
     author: "Wataru Watari",
     genre: ["Romance", "Drama", "School", "Comedy"],
     status: "Completed",
@@ -564,6 +580,7 @@ const novels = [
   {
     id: 17,
     title: "Honzuki no Gekokujou (Ascendance of a Bookworm)",
+    slug: "honzuki-no-gekokujou-ascendance-of-a-bookworm",
     author: "Miya Kazuki",
     genre: ["Fantasy", "Isekai", "Slice of Life"],
     status: "Completed",
@@ -591,6 +608,7 @@ const novels = [
     id: 18,
     title:
       "Sword Oratoria: Is It Wrong to Try to Pick Up Girls in a Dungeon? On the Side",
+    slug: "sword-oratoria-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-on-the-side",
     author: "Fujino Omori",
     genre: ["Fantasy", "Action", "Adventure"],
     status: "Completed",
@@ -617,6 +635,7 @@ const novels = [
   {
     id: 19,
     title: "Classroom of the Elite Year 2",
+    slug: "classroom-of-the-elite-year-2",
     author: "Syougo Kinugasa",
     genre: ["Psychological", "Drama", "School"],
     status: "Ongoing",
@@ -647,6 +666,7 @@ const novels = [
   {
     id: 20,
     title: "Katahane no Riku",
+    slug: "katahane-no-riku",
     author: "Mako",
     genre: ["Fantasy", "Action", "Drama"],
     status: "Completed",
@@ -673,6 +693,7 @@ const novels = [
   {
     id: 21,
     title: "Mondaiji-tachi ga Isekai kara Kuru Sou Desu yo?",
+    slug: "mondaiji-tachi-ga-isekai-kara-kuru-sou-desu-yo",
     author: "Tarō Tsubasa",
     genre: ["Fantasy", "Action", "Comedy", "Isekai"],
     status: "Completed",
@@ -707,6 +728,7 @@ const novels = [
   {
     id: 22,
     title: "The Rising of the Shield Hero: Reprise of the Spear Hero",
+    slug: "the-rising-of-the-shield-hero-reprise-of-the-spear-hero",
     author: "Aneko Yusagi",
     genre: ["Fantasy", "Isekai", "Adventure"],
     status: "Completed",
@@ -733,6 +755,7 @@ const novels = [
   {
     id: 23,
     title: "Kono Subarashii Sekai ni Bakuen wo!",
+    slug: "kono-subarashii-sekai-ni-bakuen-wo",
     author: "Natsume Akatsuki",
     genre: ["Fantasy", "Comedy", "Isekai"],
     status: "Completed",
@@ -775,6 +798,7 @@ const novels = [
   {
     id: 24,
     title: "Accel World",
+    slug: "accel-world",
     author: "Reki Kawahara",
     genre: ["Sci-Fi", "Action", "Romance"],
     status: "Ongoing",
@@ -805,6 +829,7 @@ const novels = [
   {
     id: 25,
     title: "Log Horizon",
+    slug: "log-horizon",
     author: "Mamare Touno",
     genre: ["Fantasy", "Isekai", "Strategy"],
     status: "Completed",
